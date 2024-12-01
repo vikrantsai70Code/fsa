@@ -56,6 +56,7 @@ export default function Login() {
                 <option value="">Choose a role</option>
                 <option value="student">Student</option>
                 <option value="reviewer">Reviewer</option>
+                <option value="approver">Approver 1</option>
                 <option value="approver">Approver</option>
               </select>
             </div>
