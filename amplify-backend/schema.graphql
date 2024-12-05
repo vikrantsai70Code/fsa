@@ -1,0 +1,14 @@
+type Application {
+  id: ID!
+  studentName: String!
+  status: String!
+}
+
+type Query {
+  getApplications: [Application]
+}
+
+type Mutation {
+  addApplication(studentName: String!, status: String!): Application
+}
+
